@@ -1,5 +1,5 @@
-let dateOfBirth = prompt('Год рождения','');
-let name = prompt('Имя','');
-let lastName = prompt('Фамилию','');
-dateOfBirth = 2022 - Number(dateOfBirth)
-console.log(`User Bio: ${name} ${lastName} Doe, ${dateOfBirth} years old;`)
+const dateOfBirth = prompt('Год рождения','');
+const name = prompt('Имя','');
+const lastName = prompt('Фамилию','');
+const years = 2022 - Number(dateOfBirth)
+console.log(`User Bio: ${name} ${lastName} Doe, ${years} years old;`);
